@@ -14,6 +14,7 @@ class Solution:
         # return list(map(list, zip(*A)))
         return list(zip(*A))
 
+
 if __name__ == '__main__':
     solution = Solution()
     A = [[5],[8]]
